@@ -27,4 +27,30 @@ body {
 #dowland:hover{
   background-color: tomato;
 }
-
+#form{
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+#apply{
+  width: 27%;
+  border: none;
+  min-height: 25px;
+  border-radius: 4px;
+  background-color: #3cb46a;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+#apply:hover{
+  background-color: #3cb46aaa;
+}
+#input{
+  width: 70%;
+  border-radius: 4px;
+  min-height: 25px;
+  border: 2px solid #3cb46a;
+  padding-left: 5px ;
+}
